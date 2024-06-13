@@ -19,9 +19,10 @@ public class Input01 {
         
         //Tente criar uma caixa de diálogo, analisá-lo e inicializar um int em uma única linha.
         //Você deve ter apenas um ponto e vírgula (;) nesta linha.
-     int input3 = Integer.parseInt(JOptionPane.showInputDialog("Digite outra vez"));  
+     int input3 = Integer.parseInt(JOptionPane.showInputDialog("Digite outra vez"));
+     
         
-        System.out.println();
+        System.out.println(input3);
 
      
     }
