@@ -1,6 +1,6 @@
-package ValidadorIdade;
+package Aula5_1;
 
-import java.util.Scanner;
+
 
 public class AgeValidity {
 
@@ -11,12 +11,15 @@ System.out.println("informe sua idade:");
 int idade = keyboard.nextInt();
 boolean drivingUnderAge; 
 drivingUnderAge = false;
-if (idade <= 18)
+if (idade <= 17)
     System.out.println("Motorista é menor de idade");
+if(idade> 18){
+       System.out.println("Motorista habilitado");
+   }
         
 
 
-       System.out.println("Sua idade é:" + idade);
+       System.out.println("Sua idade é:" + idade + " anos");
     }
 }
        
